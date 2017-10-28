@@ -1,13 +1,13 @@
 /*
 *   ————————————————————————————————————————————————————————————————————————————
-*   SuperSwift.swift
+*   SDT SuperSwift.swift
+*   ————————————————————————————————————————————————————————————————————————————
+*   Created by Marcel Kröker on 18.02.17.
+*   Copyright © 2017 Marcel Kröker. All rights reserved.
 *   ————————————————————————————————————————————————————————————————————————————
 *   SuperSwift is a file that aims to improve the swift programming language. It
 *   adds missing functionality and convenient syntax to make the language more
 *   versatile.
-*   ————————————————————————————————————————————————————————————————————————————
-*   Created by Marcel Kröker on 18.02.2017.
-*   Copyright © 2017 Marcel Kröker. All rights reserved.
 */
 
 import Foundation

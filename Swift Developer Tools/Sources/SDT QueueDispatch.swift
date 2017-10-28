@@ -1,6 +1,6 @@
 /*
 *   ————————————————————————————————————————————————————————————————————————————
-*   MG QueueDispatch.swift
+*   SDT QueueDispatch.swift
 *   ————————————————————————————————————————————————————————————————————————————
 *   Created by Marcel Kröker on 25.12.15.
 *   Copyright © 2015 Marcel Kröker. All rights reserved.

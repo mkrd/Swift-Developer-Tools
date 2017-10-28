@@ -1,6 +1,6 @@
 /*
 *   ————————————————————————————————————————————————————————————————————————————
-*   MG Benchmark Tools.swift
+*   SDT Benchmark Tools.swift
 *   ————————————————————————————————————————————————————————————————————————————
 *   Created by Marcel Kröker on 03.04.2015.
 *   Copyright © 2015 Marcel Kröker. All rights reserved.

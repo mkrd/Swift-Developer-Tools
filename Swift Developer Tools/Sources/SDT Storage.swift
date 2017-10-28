@@ -1,6 +1,6 @@
 /*
 *   ————————————————————————————————————————————————————————————————————————————
-*   MG Storage.swift
+*   SDT Storage.swift
 *   ————————————————————————————————————————————————————————————————————————————
 *   Created by Marcel Kröker on 09.10.16.
 *   Copyright © 2016 Marcel Kröker. All rights reserved.

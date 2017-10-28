@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2750AE21FA338FE00E44A32 /* MG Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADA1FA338FE00E44A32 /* MG Math.swift */; };
-		C2750AE31FA338FE00E44A32 /* MG IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADB1FA338FE00E44A32 /* MG IO.swift */; };
-		C2750AE41FA338FE00E44A32 /* MG QueueDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADC1FA338FE00E44A32 /* MG QueueDispatch.swift */; };
-		C2750AE51FA338FE00E44A32 /* MG Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADD1FA338FE00E44A32 /* MG Complex.swift */; };
-		C2750AE61FA338FE00E44A32 /* MG Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADE1FA338FE00E44A32 /* MG Storage.swift */; };
-		C2750AE71FA338FE00E44A32 /* MG Benchmark Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADF1FA338FE00E44A32 /* MG Benchmark Tools.swift */; };
-		C2750AE81FA338FE00E44A32 /* MG Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750AE01FA338FE00E44A32 /* MG Matrix.swift */; };
-		C2750AE91FA338FE00E44A32 /* MG SuperSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750AE11FA338FE00E44A32 /* MG SuperSwift.swift */; };
+		C2750AE31FA338FE00E44A32 /* SDT IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADB1FA338FE00E44A32 /* SDT IO.swift */; };
+		C2750AE41FA338FE00E44A32 /* SDT QueueDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADC1FA338FE00E44A32 /* SDT QueueDispatch.swift */; };
+		C2750AE61FA338FE00E44A32 /* SDT Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADE1FA338FE00E44A32 /* SDT Storage.swift */; };
+		C2750AE71FA338FE00E44A32 /* SDT Benchmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADF1FA338FE00E44A32 /* SDT Benchmarks.swift */; };
+		C2750AE91FA338FE00E44A32 /* SDT SuperSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750AE11FA338FE00E44A32 /* SDT SuperSwift.swift */; };
 		C275B1AC1FA3382000137375 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C275B1AB1FA3382000137375 /* main.swift */; };
+		C2875B7A1FA343C9009DB99D /* SDT IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADB1FA338FE00E44A32 /* SDT IO.swift */; };
+		C2875B7D1FA343C9009DB99D /* SDT QueueDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADC1FA338FE00E44A32 /* SDT QueueDispatch.swift */; };
+		C2875B7E1FA343C9009DB99D /* SDT Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750ADE1FA338FE00E44A32 /* SDT Storage.swift */; };
+		C2875B7F1FA343C9009DB99D /* SDT SuperSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2750AE11FA338FE00E44A32 /* SDT SuperSwift.swift */; };
+		C2875B821FA34516009DB99D /* SDT Benchmarks Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2875B811FA34516009DB99D /* SDT Benchmarks Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,19 +33,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C2750ADA1FA338FE00E44A32 /* MG Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG Math.swift"; sourceTree = "<group>"; };
-		C2750ADB1FA338FE00E44A32 /* MG IO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG IO.swift"; sourceTree = "<group>"; };
-		C2750ADC1FA338FE00E44A32 /* MG QueueDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG QueueDispatch.swift"; sourceTree = "<group>"; };
-		C2750ADD1FA338FE00E44A32 /* MG Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG Complex.swift"; sourceTree = "<group>"; };
-		C2750ADE1FA338FE00E44A32 /* MG Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG Storage.swift"; sourceTree = "<group>"; };
-		C2750ADF1FA338FE00E44A32 /* MG Benchmark Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG Benchmark Tools.swift"; sourceTree = "<group>"; };
-		C2750AE01FA338FE00E44A32 /* MG Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG Matrix.swift"; sourceTree = "<group>"; };
-		C2750AE11FA338FE00E44A32 /* MG SuperSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG SuperSwift.swift"; sourceTree = "<group>"; };
+		C2750ADB1FA338FE00E44A32 /* SDT IO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SDT IO.swift"; sourceTree = "<group>"; };
+		C2750ADC1FA338FE00E44A32 /* SDT QueueDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SDT QueueDispatch.swift"; sourceTree = "<group>"; };
+		C2750ADE1FA338FE00E44A32 /* SDT Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SDT Storage.swift"; sourceTree = "<group>"; };
+		C2750ADF1FA338FE00E44A32 /* SDT Benchmarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SDT Benchmarks.swift"; sourceTree = "<group>"; };
+		C2750AE11FA338FE00E44A32 /* SDT SuperSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SDT SuperSwift.swift"; sourceTree = "<group>"; };
+		C2750AEF1FA33C7D00E44A32 /* Swift Developer Tools Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Developer Tools Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2750AF31FA33C7D00E44A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C275B1A81FA3382000137375 /* Swift Developer Tools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift Developer Tools"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C275B1AB1FA3382000137375 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C2875B811FA34516009DB99D /* SDT Benchmarks Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SDT Benchmarks Tests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C2750AEC1FA33C7D00E44A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C275B1A51FA3382000137375 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,22 +66,29 @@
 		C2750AD91FA338E400E44A32 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C2750ADF1FA338FE00E44A32 /* MG Benchmark Tools.swift */,
-				C2750ADD1FA338FE00E44A32 /* MG Complex.swift */,
-				C2750ADB1FA338FE00E44A32 /* MG IO.swift */,
-				C2750ADA1FA338FE00E44A32 /* MG Math.swift */,
-				C2750AE01FA338FE00E44A32 /* MG Matrix.swift */,
-				C2750ADC1FA338FE00E44A32 /* MG QueueDispatch.swift */,
-				C2750ADE1FA338FE00E44A32 /* MG Storage.swift */,
-				C2750AE11FA338FE00E44A32 /* MG SuperSwift.swift */,
+				C2750ADF1FA338FE00E44A32 /* SDT Benchmarks.swift */,
+				C2750ADB1FA338FE00E44A32 /* SDT IO.swift */,
+				C2750ADC1FA338FE00E44A32 /* SDT QueueDispatch.swift */,
+				C2750ADE1FA338FE00E44A32 /* SDT Storage.swift */,
+				C2750AE11FA338FE00E44A32 /* SDT SuperSwift.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		C2750AF01FA33C7D00E44A32 /* Swift Developer Tools Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2875B811FA34516009DB99D /* SDT Benchmarks Tests.swift */,
+				C2750AF31FA33C7D00E44A32 /* Info.plist */,
+			);
+			path = "Swift Developer Tools Tests";
 			sourceTree = "<group>";
 		};
 		C275B19F1FA3382000137375 = {
 			isa = PBXGroup;
 			children = (
 				C275B1AA1FA3382000137375 /* Swift Developer Tools */,
+				C2750AF01FA33C7D00E44A32 /* Swift Developer Tools Tests */,
 				C275B1A91FA3382000137375 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				C275B1A81FA3382000137375 /* Swift Developer Tools */,
+				C2750AEF1FA33C7D00E44A32 /* Swift Developer Tools Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +114,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C2750AEE1FA33C7D00E44A32 /* Swift Developer Tools Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2750AF41FA33C7D00E44A32 /* Build configuration list for PBXNativeTarget "Swift Developer Tools Tests" */;
+			buildPhases = (
+				C2750AEB1FA33C7D00E44A32 /* Sources */,
+				C2750AEC1FA33C7D00E44A32 /* Frameworks */,
+				C2750AED1FA33C7D00E44A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Developer Tools Tests";
+			productName = "Swift Developer Tools Tests";
+			productReference = C2750AEF1FA33C7D00E44A32 /* Swift Developer Tools Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C275B1A71FA3382000137375 /* Swift Developer Tools */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C275B1AF1FA3382000137375 /* Build configuration list for PBXNativeTarget "Swift Developer Tools" */;
@@ -124,6 +158,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Marcel Kröker";
 				TargetAttributes = {
+					C2750AEE1FA33C7D00E44A32 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					C275B1A71FA3382000137375 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -143,30 +181,76 @@
 			projectRoot = "";
 			targets = (
 				C275B1A71FA3382000137375 /* Swift Developer Tools */,
+				C2750AEE1FA33C7D00E44A32 /* Swift Developer Tools Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C2750AED1FA33C7D00E44A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C2750AEB1FA33C7D00E44A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2875B7A1FA343C9009DB99D /* SDT IO.swift in Sources */,
+				C2875B7D1FA343C9009DB99D /* SDT QueueDispatch.swift in Sources */,
+				C2875B7E1FA343C9009DB99D /* SDT Storage.swift in Sources */,
+				C2875B7F1FA343C9009DB99D /* SDT SuperSwift.swift in Sources */,
+				C2875B821FA34516009DB99D /* SDT Benchmarks Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C275B1A41FA3382000137375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2750AE61FA338FE00E44A32 /* MG Storage.swift in Sources */,
-				C2750AE91FA338FE00E44A32 /* MG SuperSwift.swift in Sources */,
-				C2750AE21FA338FE00E44A32 /* MG Math.swift in Sources */,
+				C2750AE61FA338FE00E44A32 /* SDT Storage.swift in Sources */,
+				C2750AE91FA338FE00E44A32 /* SDT SuperSwift.swift in Sources */,
 				C275B1AC1FA3382000137375 /* main.swift in Sources */,
-				C2750AE81FA338FE00E44A32 /* MG Matrix.swift in Sources */,
-				C2750AE71FA338FE00E44A32 /* MG Benchmark Tools.swift in Sources */,
-				C2750AE41FA338FE00E44A32 /* MG QueueDispatch.swift in Sources */,
-				C2750AE51FA338FE00E44A32 /* MG Complex.swift in Sources */,
-				C2750AE31FA338FE00E44A32 /* MG IO.swift in Sources */,
+				C2750AE71FA338FE00E44A32 /* SDT Benchmarks.swift in Sources */,
+				C2750AE41FA338FE00E44A32 /* SDT QueueDispatch.swift in Sources */,
+				C2750AE31FA338FE00E44A32 /* SDT IO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		C2750AF51FA33C7D00E44A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift Developer Tools Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blubyte.Swift-Developer-Tools-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C2750AF61FA33C7D00E44A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift Developer Tools Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blubyte.Swift-Developer-Tools-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		C275B1AD1FA3382000137375 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -294,6 +378,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C2750AF41FA33C7D00E44A32 /* Build configuration list for PBXNativeTarget "Swift Developer Tools Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2750AF51FA33C7D00E44A32 /* Debug */,
+				C2750AF61FA33C7D00E44A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C275B1A31FA3382000137375 /* Build configuration list for PBXProject "Swift Developer Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
