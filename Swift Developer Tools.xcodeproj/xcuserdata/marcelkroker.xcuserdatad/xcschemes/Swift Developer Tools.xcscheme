@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2750AEE1FA33C7D00E44A32"
-               BuildableName = "Swift Developer Tools Tests.xctest"
-               BlueprintName = "Swift Developer Tools Tests"
+               BlueprintIdentifier = "C2383DDD1FA49752004C0F5E"
+               BuildableName = "tests.xctest"
+               BlueprintName = "tests"
                ReferencedContainer = "container:Swift Developer Tools.xcodeproj">
             </BuildableReference>
          </TestableReference>
